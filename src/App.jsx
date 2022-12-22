@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './styles/Style.css'
+import { FaInstagram, FaGithub } from 'react-icons/fa'
 
 import Header from './components/Header'
 import Section from './components/Section'
@@ -50,13 +51,13 @@ const channelListData = [
 const socialListData = [
   {
     url: "https://www.instagram.com/al.wng/",
-    src:"../public/assets/instagram.svg",
+    src:"../assets/instagram.svg",
     alt:"Meu Instagram",
   },
 
   {
     url:"https://twitter.com/alnwngg",
-    src:"../public/assets/twitter.svg",
+    src:"../assets/twitter.svg",
     alt:"Meu Twitter",
   },
 
